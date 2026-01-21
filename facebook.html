@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h2>Belajar JavaScript Dasar</h2>
+    <table border="1" class="navbar" cellpadding="0" cellspacing="0">
+      <tr>
+        <td class="logo">facebook</td>
+        <td align="right">
+          <table class="login-table" cellpadding="4" cellspacing="0">
+            <tr>
+              <td>
+                <label>Email or Phone</label><br />
+                <input type="text" />
+              </td>
+              <td>
+                <label>Password</label><br />
+                <input type="password" /><br />
+                <span>Forgotten password?</span>
+              </td>
+              <td>
+                <input type="submit" value="Log In" class="login-btn" />
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <table class="main" cellpadding="20" cellspacing="0">
+      <tr>
+        <td class="left">
+          <h2>
+            Facebook helps you connect and share with the people in your life.
+          </h2>
+          <img
+            src="hand-drawn-flat-design-connecting-people-infographic_52683-76904.jpg"
+            width="100%"
+          />
+        </td>
+        <td class="right" valign="top">
+          <h1>Create an account</h1>
+          <p>It's free and always will be.</p>
+          <form>
+            <table cellpadding="6" cellspacing="0" width="100%">
+              <tr>
+                <td><input type="text" placeholder="First Name" /></td>
+                <td><input type="text" placeholder="Last Name" /></td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <input
+                    type="text"
+                    placeholder="Mobile number or email address"
+                    style="width: 100%"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <input
+                    type="password"
+                    placeholder="New Password"
+                    style="width: 100%"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2"><label>Birthday</label></td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <select>
+                    <option>1</option>
+                  </select>
+                  <select>
+                    <option>Jan</option>
+                  </select>
+                  <select>
+                    <option>2000</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <input type="radio" name="gender" /> Male
+                  <input type="radio" name="gender" /> Female
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <p class="terms">
+                    By clicking Create an account, you agree to our Terms and
+                    confirm that you have read our Data Policy.
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <input
+                    type="submit"
+                    value="Create an account"
+                    class="signup-btn"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <p>
+                    <a href="#">Create a Page</a> for a celebrity, band or
+                    business.
+                  </p>
+                </td>
+              </tr>
+            </table>
+          </form>
+        </td>
+      </tr>
+    </table>
+    <!DOCTYPE html>
+  </body>
+</html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar JavaScript</title>
+  </head>
+  <body>
+    <a href="javascript:alert('Terima kasih sudah klick!')">Klik aku!</a>
+    <textarea
+      onkeyup="document.getElementById('counter').innerText = this.value.length"
+    ></textarea>
+    <p>Panjang: <span id="counter">0</span>karakter</p>
+    <script src="main.js"></script>
+    <button onclick="alert('Terima kasih sudah klick')"></button>
+    <script>
+      var name = prompt("Masukkan nama anda...", "");
+      document.write("<p>Selamat datang di web kita" + nama + "</p>");
+    </script>
+  </body>
+</html>

@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #edf0f5;
+}
+
+.navbar {
+  width: 100%;
+  background: #3b5998;
+  color: white;
+  padding: 10px;
+}
+
+.logo {
+  font-size: 36px;
+  font-weight: bold;
+  padding-left: 100px;
+}
+
+.login-table label {
+  font-size: 12px;
+  color: white;
+}
+
+.login-table input[type="text"],
+.login-table input[type="password"] {
+  border: 1px solid #1d2a5b;
+  padding: 3px;
+  width: 150px;
+}
+
+.login-table a {
+  font-size: 11px;
+  color: #9cb4d8;
+  text-decoration: none;
+}
+
+.login-btn {
+  background: #4267b2;
+  color: white;
+  border: 1px solid #29487d;
+  padding: 4px 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.main {
+  width: 80%;
+  margin: 40px auto;
+}
+
+.left h2 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.right {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.right h1 {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.right p {
+  margin: 10px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.right input[type="text"],
+.right input[type="password"],
+.right select {
+  padding: 10px;
+  border: 1px solid #bdc7d8;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.terms {
+  font-size: 12px;
+  color: #777;
+}
+
+.signup-btn {
+  background: #5cb85c;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signup-btn:hover {
+  background: #4cae4c;
+}
+
+.right a {
+  color: #3b5998;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+}
